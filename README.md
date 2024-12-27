@@ -45,9 +45,9 @@ The Elevator Problem has applications in:
      - `json` for parsing the profiler output.
 
 4. **Other Goodies:**
-   - **[Optimizing Vertical Transportation: A Comparative Study of Elevator Dispatching Algorithms in Dynamic Environments](./Article.pdf)** – For a more detailed discussion, refer to our research article.
-   - **[JSON Output](./results.json)** – The profiler's output.
-   - **[Graph Output](./results_plot.png)** – The visual representation of the data.
+   - **[Optimizing Vertical Transportation: A Comparative Study of Elevator Dispatching Algorithms in Dynamic Environments](./resources/Article.pdf)** – For a more detailed discussion, refer to our research article.
+   - **[JSON Output](./results/results.json)** – The profiler's output.
+   - **[Graph Output](./results/results_plot.png)** – The visual representation of the data.
 
 ---
 
@@ -180,6 +180,6 @@ When designing an elevator scheduling algorithm, consider:
 - The **JSON Output** (`results.json`) contains raw performance data of the algorithms.
 - The **Graph Output** (`results_plot.png`) visually illustrates the performance metrics for easy comparison.
   
-  ![Graph Output](./results_plot.png)
+  ![Graph Output](./results/results_plot.png)
 
 ---

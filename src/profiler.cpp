@@ -6,7 +6,7 @@
 #include <cstdlib>
 #include <chrono>
 #include <fstream>
-#include "json.hpp"
+#include "../dependencies/json.hpp"
 
 using json = nlohmann::json;
 
@@ -125,7 +125,7 @@ int main() {
         }
     }
 
-    std::ofstream file("results.json");
+    std::ofstream file("results/results.json");
     file << results.dump(4);
     file.close();
 

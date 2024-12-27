@@ -1,7 +1,7 @@
 import json
 import matplotlib.pyplot as plt
 
-def visualize_results(file_path, output_image="results_plot.png"):
+def visualize_results(file_path, output_image="results/results_plot.png"):
     with open(file_path, "r") as file:
         data = json.load(file)
 
@@ -30,4 +30,4 @@ def visualize_results(file_path, output_image="results_plot.png"):
     plt.show()
 
 if __name__ == "__main__":
-    visualize_results("results.json")
+    visualize_results("results/results.json")
