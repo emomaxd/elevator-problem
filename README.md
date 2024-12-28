@@ -1,8 +1,10 @@
-# Elevator Problem
+# Elevator Problem [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://github.com/emomaxd/elevator-problem/blob/master/LICENSE)
 
 The **Elevator Problem** is a classic optimization problem that revolves around designing an efficient strategy for an elevator to handle passenger requests across multiple floors. It draws parallels with scheduling challenges in computer science, such as disk scheduling and resource allocation.
 
 ---
+
+![Elevator](resources/elevator.webp?raw=true "elevator")
 
 ## **Problem Overview**
 Imagine a building equipped with an elevator:
@@ -158,6 +160,7 @@ When designing an elevator scheduling algorithm, consider:
 ## **How to Run the Code**
 
 ### Running the Profiler (C++):
+1. Compile and run the code:
    ```bash
    g++ profiler.cpp -o profiler
    ./profiler
